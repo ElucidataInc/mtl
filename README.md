@@ -8,7 +8,7 @@ Labeled data for tissue, strain and cell line NER is present in the `data/` dire
 
 ## Inference
 
-Once the model is trained, it `create_mtner_pipeline` can be used to create a callable which returns entity spans
+Once the model is trained, the `create_mtner_pipeline` function in `inferencey.py` can be used to create a callable which returns entity spans
 
 ```python
 pipe = create_mtner_pipeline("<model_path>")
